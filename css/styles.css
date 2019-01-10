@@ -1,0 +1,38 @@
+.container {
+  margin:0 auto;
+  /*padding: 7em 4em 3em 2em;
+  border-bottom: 5px solid black;
+  border-left: 20px dotted #7ff639;*/
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 2fr 1fr 50px;
+  grid-gap: 5px;
+  grid-template-areas:
+  ". . . a"
+  "b b c c"
+  ". d d ."
+  "e e e e"
+}
+#parrafo_inicial {
+  font-size: 1em;
+  line-height: 1.3em;
+}
+header{
+  grid-area: a;
+}
+.uno{
+  background-color: yellow;
+  grid-area: b;
+}
+.dos{
+  background-color: orange;
+  grid-area: c;
+}
+article{
+  background-color: red;
+  grid-area: d;
+}
+footer{
+  background-color: purple;
+  grid-area: e;
+}

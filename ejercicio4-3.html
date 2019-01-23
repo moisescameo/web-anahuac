@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Versión 3 de Vivus</title>
+    <style>
+      svg{
+        width: 800px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div id="my-div"></div>
+    <script src="js/vivus.min.js"></script>
+
+    <script>
+      new Vivus('my-div', {duration: 30, type: 'scenario-sync', file: 'images/music.svg'},);
+    </script>
+  </body>
+</html>

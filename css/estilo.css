@@ -2,6 +2,14 @@
  @import url('https://fonts.googleapis.com/css?family=Sarala:700');
  @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
 
+html, body {
+  margin: 0;
+}
+
+  *, *:before, *:after {
+    box-sizing: border-box;
+}
+
   .container{
     background: #383d52;
     display: grid;
@@ -218,7 +226,7 @@
   
   @media (min-width: 320px) and (max-width: 480px) {
     .container{
-      background: #65B4B6;
+      background: #E5A491;
       display: grid;
       grid-gap: 5px;
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -226,7 +234,7 @@
     }
   
     section {
-      background: #65B4B6;
+      background: #E5A491;
     }
     .photo{
       grid-area: 2 / 1 / 4 / 3;
